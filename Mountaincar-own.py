@@ -9,4 +9,3 @@ mapping = {(pygame.K_LEFT,): 0, (pygame.K_RIGHT,): 1}
 env = gym.make('MountainCar-v0', render_mode='rgb_array')
 
 play(env, keys_to_action=mapping)
-
